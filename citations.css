@@ -1,0 +1,5 @@
+body {  background-color: lavender;  display: grid;  grid-column-gap: 10px} 
+ .citation{  font-weight : bold;  grid-column: 1} 
+ .explication{grid-column: 2} 
+.auteur{grid-column: 3}
+.date{grid-column: 4}

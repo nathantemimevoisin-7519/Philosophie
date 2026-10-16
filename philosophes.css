@@ -1,0 +1,9 @@
+body {  background-color: lavender;  display: flex;  grid-column-gap: 10px;  grid-row-gap: 10px;  flex-wrap: wrap;justify-content: center;}
+.philosophe{  display: grid;  grid-gap: 10px;  grid-template-rows: 100px 50px 20px 20px;  border: 2px dashed black;  padding: 5px;  border-radius: 10px;}
+.nom{  font-weight : bold;  grid-column: 1;  grid-row: 2;  align-self: anchor-center;}
+.siecle{  grid-column: 2;  grid-row: 2;  align-self: anchor-center;}
+.continent{  grid-column: 1;  grid-row: 3;  align-self: anchor-center;}
+.pays{  grid-column: 2;  grid-row: 3;  align-self: anchor-center;}.ville{  grid-column: 3;  grid-row: 3;  align-self: anchor-center;}
+.oeuvre{  grid-column: 3;  font-style : italic;  grid-row: 2;  overflow: auto;align-self: anchor-center;}
+.des{  grid-column: span 3;  grid-row: 4;  overflow: auto;  align-self: anchor-center;}
+.image{  grid-column: span 3;  height: 100px;  grid-row: 1;  justify-self: anchor-center;  align-self: anchor-center;}

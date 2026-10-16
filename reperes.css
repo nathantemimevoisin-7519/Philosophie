@@ -1,0 +1,4 @@
+body {background-color: lightgreen;  display: grid;  grid-column-gap: 10px} 
+ .mot{grid-column: 1;}
+ .explication {grid-column: 2;}
+ .motlie {grid-column:3;}
